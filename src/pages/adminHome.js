@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Palinsesto from "../components/palinsesto";
 import SingleProgram from "../components/singleProgram";
+import AddProgram from "../components/addProgram";
 
 class AdminHome extends Component {
     render() {
@@ -15,6 +16,8 @@ class AdminHome extends Component {
 
                     <div className="col-md-6 mx-auto">
                         <Palinsesto />
+
+                        <AddProgram />
 
                     </div>
 
