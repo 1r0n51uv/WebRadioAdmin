@@ -7,6 +7,13 @@ class Navbar extends Component {
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">RadioRegioneCampania Admin</a>
                 </div>
+                <div className="collapse navbar-collapse">
+                    <ul className="navbar-nav">
+                        <li className="nav-item">
+                            <a className="nav-link active" aria-current="page" href="#">Palinsesto</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         );
     }

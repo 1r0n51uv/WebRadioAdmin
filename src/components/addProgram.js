@@ -87,6 +87,10 @@ class AddProgram extends Component {
             <div>
                 <div className="card">
 
+                    <div className="card-header">Aggiungi al palinsesto
+
+                    </div>
+
                     <form onSubmit={this.handleSubmit}>
                         <div className="row" style={{padding: '2%'}}>
 
