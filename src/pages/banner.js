@@ -81,6 +81,8 @@ class Banner extends Component {
 
                                 <div>
                                     {this.state.isUploading && <p>Progress: {this.state.progress} %</p>}
+                                    <label>Il banner deve avere dimensione 1300x400</label>
+                                    <br/>
                                     <CustomUploadButton
                                         accept="image/*"
                                         name="avatar"
