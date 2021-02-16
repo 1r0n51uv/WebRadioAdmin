@@ -4,7 +4,10 @@ import firebase from "firebase";
 class SingleProgram extends Component {
 
     removeElement = () => {
-        firebase.firestore().collection('palinsesto').doc(this.props.id).delete();
+        firebase.firestore().collection('palinsesto').doc(this.props.id).delete().then(() => {
+            window.location.reload()
+        });
+
     }
 
     render() {
@@ -22,10 +25,10 @@ class SingleProgram extends Component {
 
                         <div className="col-md-8">
                             <div style={{padding: '2%'}}>
-                                <h5><b>Titolo: </b> {this.props.title}</h5>
-                                <h5><b>Giorno: </b> {this.props.day}</h5>
-                                <h5><b>Inizio: </b> {this.props.start}</h5>
-                                <h5><b>Fine: </b> {this.props.end}</h5>
+                                <h6><b>Titolo: </b> {this.props.title}</h6>
+                                <h6><b>Giorno: </b> {this.props.day}</h6>
+                                <h6><b>Inizio: </b> {this.props.start}</h6>
+                                <h6><b>Fine: </b> {this.props.end}</h6>
                             </div>
                         </div>
 
