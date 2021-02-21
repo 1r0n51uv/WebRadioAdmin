@@ -12,26 +12,26 @@ class AdminHome extends Component {
                     <hr/>
 
                     <div className="col-md-6 mx-auto" style={{marginTop: '5%'}}>
-                        <Link className="nav-link active" to="palinsesto"/>
-                        <div className="card mx-auto text-center" style={{backgroundColor: 'green', padding: '2%'}}>
-                            <h2 style={{color: 'white'}}>Modifica Palinsesto <i className="far fa-calendar-alt"></i></h2>
-                        </div>
-
+                        <Link className="nav-link active" to="palinsesto">
+                            <div className="card mx-auto text-center" style={{backgroundColor: 'green', padding: '2%'}}>
+                                <h2 style={{color: 'white'}}>Modifica Palinsesto <i className="far fa-calendar-alt"></i></h2>
+                            </div>
+                        </Link>
                     </div>
                     <div className="col-md-6 mx-auto" style={{marginTop: '5%'}}>
-                        <Link className="nav-link active" to="banner"/>
-                        <div className="card mx-auto text-center" style={{backgroundColor: 'blue', padding: '2%'}}>
-                            <h2 style={{color: 'white'}}>Modifica Banner <i className="far fa-images"></i></h2>
-                        </div>
-
+                        <Link className="nav-link active" to="banner">
+                            <div className="card mx-auto text-center" style={{backgroundColor: 'blue', padding: '2%'}}>
+                                <h2 style={{color: 'white'}}>Modifica Banner <i className="far fa-images"></i></h2>
+                            </div>
+                        </Link>
                     </div >
 
                     <div className="col-md-6 mx-auto" style={{marginTop: '5%'}}>
-                        <Link className="nav-link active" to="info"/>
-                        <div className="card mx-auto text-center" style={{backgroundColor: 'orange', padding: '2%'}}>
-                            <h2 style={{color: 'white'}}>Modifica Info <i className="fas fa-info-circle"></i></h2>
-                        </div>
-
+                        <Link className="nav-link active" to="info">
+                            <div className="card mx-auto text-center" style={{backgroundColor: 'orange', padding: '2%'}}>
+                                <h2 style={{color: 'white'}}>Modifica Info <i className="fas fa-info-circle"></i></h2>
+                            </div>
+                        </Link>
                     </div>
 
                 </div>
