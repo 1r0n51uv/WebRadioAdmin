@@ -13,11 +13,11 @@ class Myrouter extends Component {
             <Router>
                 <div>
                     <Navbar />
-                    <Route  path="/home" component={AdminHome}/>
-                    <Route exact path="/" component={AdminHome}/>
+                    <Route path="/home" component={AdminHome}/>
+                    <Route path="/" component={AdminHome}/>
                     <Route path="/palinsesto" component={Palinsesto}/>
-                    <Route  path="/banner" component={Banner}/>
-                    <Route  path="/info" component={Info}/>
+                    <Route path="/banner" component={Banner}/>
+                    <Route path="/info" component={Info}/>
                 </div>
             </Router>
         );
