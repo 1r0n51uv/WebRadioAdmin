@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {HashRouter as Router, Route} from 'react-router-dom';
 import Palinsesto from "../pages/palinsesto";
 import Navbar from "../components/navbar";
 import Banner from "../pages/banner";
@@ -13,11 +13,11 @@ class Myrouter extends Component {
             <Router>
                 <div>
                     <Navbar />
-                    <Route  path="/home" component={AdminHome}/>
+                    <Route exact path="/home" component={AdminHome}/>
                     <Route exact path="/" component={AdminHome}/>
-                    <Route path="/palinsesto" component={Palinsesto}/>
-                    <Route  path="/banner" component={Banner}/>
-                    <Route  path="/info" component={Info}/>
+                    <Route exact path="/palinsesto" component={Palinsesto}/>
+                    <Route exact path="/banner" component={Banner}/>
+                    <Route exact path="/info" component={Info}/>
                 </div>
             </Router>
         );
