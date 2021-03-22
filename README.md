@@ -8,7 +8,7 @@ Administration Page relative to RadioRegioneCampania website
   <li>React</li>
    <li>Firebase</li>
    <li>Bootstrap</li>
-   <li>Various Libraries</li>
+   <li>Various Libraries (ex. react-router-dom)</li>
   </ul>
   
  ## Online :heavy_check_mark:
