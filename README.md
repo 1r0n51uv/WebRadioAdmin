@@ -1,6 +1,17 @@
 # Web Radio Regione Campania admin page
 
-Developed with React, Firebase, Bootstrap, and various libraries
+Administration Page relative to RadioRegioneCampania website
+
+## Technologies
+
+<ul>
+  <li>React</li>
+   <li>Firebase</li>
+   <li>Bootstrap</li>
+   <li>Various Libraries</li>
+  </ul>
+  
+ ## Online :heavy_check_mark:
 
 ![Alt text](https://firebasestorage.googleapis.com/v0/b/sevamm-f9e0c.appspot.com/o/webrrcadmin%2FSchermata%202021-03-22%20alle%2011.54.14.png?alt=media&token=21a6bda0-e094-45e0-a214-90c8ddd6b93e "Optional title")
 
